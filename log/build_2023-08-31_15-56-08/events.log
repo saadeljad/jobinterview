@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.006089] (msg_package) JobQueued: {'identifier': 'msg_package', 'dependencies': OrderedDict()}
+[0.006222] (order_optimizer) JobQueued: {'identifier': 'order_optimizer', 'dependencies': OrderedDict()}
+[0.006317] (ros_cpp) JobQueued: {'identifier': 'ros_cpp', 'dependencies': OrderedDict([('msg_package', '/home/sxxxd/Downloads/amr_example_small/install/msg_package')])}
+[0.007134] (msg_package) JobStarted: {'identifier': 'msg_package'}
+[0.109735] (order_optimizer) JobStarted: {'identifier': 'order_optimizer'}
+[0.156495] (-) TimerEvent: {}
+[0.245297] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'cmake'}
+[0.250111] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'build'}
+[0.250151] (msg_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sxxxd/Downloads/amr_example_small/build/msg_package', '--', '-j8', '-l8'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/msg_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/msg_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.261789] (order_optimizer) JobProgress: {'identifier': 'order_optimizer', 'progress': 'cmake'}
+[0.261876] (-) TimerEvent: {}
+[0.318192] (order_optimizer) Command: {'cmd': ['/usr/bin/cmake', '/home/sxxxd/Downloads/amr_example_small/order_optimizer', '-DCMAKE_INSTALL_PREFIX=/home/sxxxd/Downloads/amr_example_small/install/order_optimizer'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.345421] (order_optimizer) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.367872] (-) TimerEvent: {}
+[0.455929] (order_optimizer) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.485659] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__cpp\x1b[0m\n'}
+[0.485936] (-) TimerEvent: {}
+[0.505370] (msg_package) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.515737] (msg_package) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.681172] (order_optimizer) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.681366] (-) TimerEvent: {}
+[0.682191] (order_optimizer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.682567] (order_optimizer) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.797134] (-) TimerEvent: {}
+[0.820142] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_generator_c\x1b[0m\n'}
+[0.893638] (msg_package) StdoutLine: {'line': b'[  6%] Built target msg_package__cpp\n'}
+[0.899184] (-) TimerEvent: {}
+[0.908780] (msg_package) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/msg/detail/order__functions.c.o\x1b[0m\n'}
+[0.926561] (msg_package) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.944044] (msg_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.952507] (msg_package) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.952741] (order_optimizer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003503] (-) TimerEvent: {}
+[1.025383] (order_optimizer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.108973] (-) TimerEvent: {}
+[1.112604] (msg_package) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmsg_package__rosidl_generator_c.so\x1b[0m\n'}
+[1.209725] (order_optimizer) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.209915] (-) TimerEvent: {}
+[1.234067] (order_optimizer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.237772] (order_optimizer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.237874] (order_optimizer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.254424] (order_optimizer) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.254632] (order_optimizer) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.254688] (order_optimizer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.254738] (order_optimizer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.254787] (order_optimizer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.274044] (order_optimizer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.274358] (order_optimizer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.298639] (order_optimizer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.309059] (msg_package) StdoutLine: {'line': b'[ 22%] Built target msg_package__rosidl_generator_c\n'}
+[1.312606] (-) TimerEvent: {}
+[1.321283] (order_optimizer) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.338300] (order_optimizer) StdoutLine: {'line': b'-- Generating done\n'}
+[1.339886] (order_optimizer) StdoutLine: {'line': b'-- Build files have been written to: /home/sxxxd/Downloads/amr_example_small/build/order_optimizer\n'}
+[1.356979] (msg_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.363399] (msg_package) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.369186] (order_optimizer) CommandEnded: {'returncode': 0}
+[1.370626] (order_optimizer) JobProgress: {'identifier': 'order_optimizer', 'progress': 'build'}
+[1.370713] (order_optimizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer', '--', '-j8', '-l8'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.387559] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.402685] (msg_package) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_package/msg/order__type_support.cpp.o\x1b[0m\n'}
+[1.405504] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.421688] (msg_package) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_package/msg/detail/order__type_support.cpp.o\x1b[0m\n'}
+[1.421905] (-) TimerEvent: {}
+[1.429558] (order_optimizer) CommandEnded: {'returncode': 0}
+[1.463877] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.472770] (order_optimizer) JobProgress: {'identifier': 'order_optimizer', 'progress': 'install'}
+[1.481825] (msg_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_package/msg/detail/dds_fastrtps/order__type_support.cpp.o\x1b[0m\n'}
+[1.485916] (order_optimizer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.497526] (order_optimizer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.497817] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/package_run_dependencies/order_optimizer\n'}
+[1.498178] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/parent_prefix_path/order_optimizer\n'}
+[1.498509] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.sh\n'}
+[1.498824] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.dsv\n'}
+[1.499248] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.sh\n'}
+[1.499586] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.dsv\n'}
+[1.499954] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.bash\n'}
+[1.500312] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.sh\n'}
+[1.500952] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.zsh\n'}
+[1.501835] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.dsv\n'}
+[1.502135] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.dsv\n'}
+[1.502519] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/packages/order_optimizer\n'}
+[1.503102] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig.cmake\n'}
+[1.503245] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig-version.cmake\n'}
+[1.503345] (order_optimizer) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.xml\n'}
+[1.525927] (order_optimizer) CommandEnded: {'returncode': 0}
+[1.527276] (-) TimerEvent: {}
+[1.604219] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_c\x1b[0m\n'}
+[1.616144] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.626172] (msg_package) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_package/msg/order__type_support.cpp.o\x1b[0m\n'}
+[1.627698] (-) TimerEvent: {}
+[1.632439] (order_optimizer) JobEnded: {'identifier': 'order_optimizer', 'rc': 0}
+[1.633987] (msg_package) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_package/msg/detail/order__type_support.c.o\x1b[0m\n'}
+[1.660341] (msg_package) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.680099] (msg_package) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmsg_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.711029] (msg_package) StdoutLine: {'line': b'[ 51%] Built target msg_package__rosidl_typesupport_c\n'}
+[1.718103] (msg_package) StdoutLine: {'line': b'[ 51%] Built target msg_package__rosidl_typesupport_introspection_c\n'}
+[1.744505] (-) TimerEvent: {}
+[1.823107] (msg_package) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.854091] (-) TimerEvent: {}
+[1.917340] (msg_package) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.962887] (-) TimerEvent: {}
+[2.053918] (msg_package) StdoutLine: {'line': b'[ 58%] Built target msg_package__rosidl_typesupport_cpp\n'}
+[2.065156] (-) TimerEvent: {}
+[2.178305] (-) TimerEvent: {}
+[2.221458] (msg_package) StdoutLine: {'line': b'[ 58%] Built target msg_package__rosidl_typesupport_introspection_cpp\n'}
+[2.278817] (-) TimerEvent: {}
+[2.371207] (msg_package) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.379572] (-) TimerEvent: {}
+[2.480253] (-) TimerEvent: {}
+[2.528292] (msg_package) StdoutLine: {'line': b'[ 61%] Built target msg_package__rosidl_typesupport_fastrtps_cpp\n'}
+[2.545491] (msg_package) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.580782] (-) TimerEvent: {}
+[2.681777] (-) TimerEvent: {}
+[2.783458] (-) TimerEvent: {}
+[2.817323] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.884339] (-) TimerEvent: {}
+[2.892232] (msg_package) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_package/msg/detail/order__type_support_c.cpp.o\x1b[0m\n'}
+[2.984885] (-) TimerEvent: {}
+[3.085754] (-) TimerEvent: {}
+[3.187045] (-) TimerEvent: {}
+[3.287923] (-) TimerEvent: {}
+[3.312746] (msg_package) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.388187] (-) TimerEvent: {}
+[3.479822] (msg_package) StdoutLine: {'line': b'[ 70%] Built target msg_package__rosidl_typesupport_fastrtps_c\n'}
+[3.489095] (-) TimerEvent: {}
+[3.504905] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package\x1b[0m\n'}
+[3.525250] (msg_package) StdoutLine: {'line': b'[ 70%] Built target msg_package\n'}
+[3.577873] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__py\x1b[0m\n'}
+[3.590500] (-) TimerEvent: {}
+[3.603485] (msg_package) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.691565] (-) TimerEvent: {}
+[3.792618] (-) TimerEvent: {}
+[3.900583] (-) TimerEvent: {}
+[4.001035] (-) TimerEvent: {}
+[4.104470] (-) TimerEvent: {}
+[4.137616] (msg_package) StdoutLine: {'line': b'[ 74%] Built target msg_package__py\n'}
+[4.174909] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__python\x1b[0m\n'}
+[4.204707] (msg_package) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/msg_package__python.dir/rosidl_generator_py/msg_package/msg/_order_s.c.o\x1b[0m\n'}
+[4.204889] (-) TimerEvent: {}
+[4.306625] (-) TimerEvent: {}
+[4.376790] (msg_package) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_package/libmsg_package__python.so\x1b[0m\n'}
+[4.421653] (-) TimerEvent: {}
+[4.525283] (-) TimerEvent: {}
+[4.574093] (msg_package) StdoutLine: {'line': b'[ 80%] Built target msg_package__python\n'}
+[4.634375] (-) TimerEvent: {}
+[4.670986] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.680840] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.700026] (msg_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_package__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.742371] (-) TimerEvent: {}
+[4.782819] (msg_package) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.783019] (msg_package) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.830582] (msg_package) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.859623] (-) TimerEvent: {}
+[5.031589] (-) TimerEvent: {}
+[5.124106] (msg_package) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.133579] (-) TimerEvent: {}
+[5.165758] (msg_package) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.165943] (msg_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.243769] (-) TimerEvent: {}
+[5.362219] (-) TimerEvent: {}
+[5.389190] (msg_package) StdoutLine: {'line': b'[100%] Built target msg_package__rosidl_typesupport_c__pyext\n'}
+[5.440892] (msg_package) StdoutLine: {'line': b'[100%] Built target msg_package__rosidl_typesupport_introspection_c__pyext\n'}
+[5.465789] (-) TimerEvent: {}
+[5.501173] (msg_package) StdoutLine: {'line': b'[100%] Built target msg_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.577820] (-) TimerEvent: {}
+[5.644346] (msg_package) CommandEnded: {'returncode': 0}
+[5.685836] (-) TimerEvent: {}
+[5.797460] (-) TimerEvent: {}
+[5.900181] (-) TimerEvent: {}
+[6.009106] (-) TimerEvent: {}
+[6.035409] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'install'}
+[6.038024] (msg_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sxxxd/Downloads/amr_example_small/build/msg_package'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/msg_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/msg_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.072780] (msg_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.072984] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/rosidl_interfaces/msg_package\n'}
+[6.073060] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.073227] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.073576] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.073636] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__struct.h\n'}
+[6.073690] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__functions.c\n'}
+[6.073874] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.h\n'}
+[6.073932] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__functions.h\n'}
+[6.073982] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/order.h\n'}
+[6.074031] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.074086] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/library_path.sh\n'}
+[6.074134] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/library_path.dsv\n'}
+[6.074192] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_generator_c.so\n'}
+[6.074243] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_generator_c.so" to ""\n'}
+[6.074292] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.074340] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.074388] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.074436] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_fastrtps_c.h\n'}
+[6.074485] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.074533] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so\n'}
+[6.096559] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.096812] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.096903] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.096959] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.097012] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.097062] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.097114] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/dds_fastrtps\n'}
+[6.097163] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.097213] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.097262] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.097319] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.097379] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.097486] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.097545] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.c\n'}
+[6.097595] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_introspection_c.h\n'}
+[6.097646] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so\n'}
+[6.097695] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.097744] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so\n'}
+[6.097792] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so" to ""\n'}
+[6.097841] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.099288] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.099352] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.099418] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.099470] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__struct.hpp\n'}
+[6.099521] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__builder.hpp\n'}
+[6.099570] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__traits.hpp\n'}
+[6.099620] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.hpp\n'}
+[6.102418] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/order.hpp\n'}
+[6.108566] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package\n'}
+[6.108629] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg\n'}
+[6.108679] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail\n'}
+[6.108729] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.cpp\n'}
+[6.108780] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.129525] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so\n'}
+[6.129708] (-) TimerEvent: {}
+[6.134331] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.134510] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so\n'}
+[6.134566] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so" to ""\n'}
+[6.134617] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/pythonpath.sh\n'}
+[6.134670] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/pythonpath.dsv\n'}
+[6.134719] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py\n'}
+[6.195920] (msg_package) StdoutLine: {'line': b"Compiling '/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py'...\n"}
+[6.201374] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg\n'}
+[6.201562] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/__init__.py\n'}
+[6.201621] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/_order.py\n'}
+[6.201672] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/_order_s.c\n'}
+[6.203827] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.204621] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.204768] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.205316] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.205638] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.206310] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.206471] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__python.so\n'}
+[6.206973] (msg_package) StdoutLine: {'line': b'-- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__python.so" to ""\n'}
+[6.207126] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/msg/Order.idl\n'}
+[6.207486] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/msg/Order.msg\n'}
+[6.207635] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/package_run_dependencies/msg_package\n'}
+[6.208367] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/parent_prefix_path/msg_package\n'}
+[6.208525] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/ament_prefix_path.sh\n'}
+[6.208945] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/ament_prefix_path.dsv\n'}
+[6.209084] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/path.sh\n'}
+[6.209455] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/path.dsv\n'}
+[6.209644] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.bash\n'}
+[6.210040] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.sh\n'}
+[6.210189] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.zsh\n'}
+[6.211992] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.dsv\n'}
+[6.212255] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/package.dsv\n'}
+[6.212947] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/packages/msg_package\n'}
+[6.213095] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport.cmake\n'}
+[6.213155] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.213207] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.213260] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.213464] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport.cmake\n'}
+[6.213591] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.214202] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cppExport.cmake\n'}
+[6.214359] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.215580] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.215758] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport.cmake\n'}
+[6.216461] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.216624] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake-extras.cmake\n'}
+[6.217265] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.217557] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.217684] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.218038] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.218176] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.219514] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.219995] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_packageConfig.cmake\n'}
+[6.220144] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_packageConfig-version.cmake\n'}
+[6.220201] (msg_package) StdoutLine: {'line': b'-- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/package.xml\n'}
+[6.228726] (msg_package) CommandEnded: {'returncode': 0}
+[6.245417] (-) TimerEvent: {}
+[6.357594] (-) TimerEvent: {}
+[6.471330] (-) TimerEvent: {}
+[6.589963] (-) TimerEvent: {}
+[6.697794] (-) TimerEvent: {}
+[6.804587] (-) TimerEvent: {}
+[6.919293] (-) TimerEvent: {}
+[7.070746] (-) TimerEvent: {}
+[7.181726] (-) TimerEvent: {}
+[7.300203] (-) TimerEvent: {}
+[7.423193] (-) TimerEvent: {}
+[7.528601] (msg_package) JobEnded: {'identifier': 'msg_package', 'rc': 0}
+[7.530276] (-) TimerEvent: {}
+[7.530599] (ros_cpp) JobStarted: {'identifier': 'ros_cpp'}
+[7.618790] (ros_cpp) JobProgress: {'identifier': 'ros_cpp', 'progress': 'cmake'}
+[7.635024] (ros_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/sxxxd/Downloads/amr_example_small/ros_cpp', '-DCMAKE_INSTALL_PREFIX=/home/sxxxd/Downloads/amr_example_small/install/ros_cpp'], 'cwd': '/home/sxxxd/Downloads/amr_example_small/build/ros_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sxxxd'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1568'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sxxxd'), ('OLDPWD', '/home/sxxxd/Downloads/amr_example_small/order_optimizer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1372'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sxxxd'), ('JOURNAL_STREAM', '8:37265'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sxxxd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sxxxd-VirtualBox:@/tmp/.ICE-unix/1654,unix/sxxxd-VirtualBox:/tmp/.ICE-unix/1654'), ('INVOCATION_ID', 'eedce52047de44b5b9ee43e17331dc17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15760fd3_5524_431a_94f3_684c349b0a01'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sxxxd/Downloads/amr_example_small/install/msg_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sxxxd/Downloads/amr_example_small/build/ros_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sxxxd/Downloads/amr_example_small/install/msg_package:/opt/ros/foxy')]), 'shell': False}
+[7.663447] (-) TimerEvent: {}
+[7.779125] (-) TimerEvent: {}
+[7.858559] (ros_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[7.879495] (-) TimerEvent: {}
+[7.937783] (ros_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[7.943640] (ros_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[7.979819] (-) TimerEvent: {}
+[8.082392] (-) TimerEvent: {}
+[8.127625] (ros_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.140657] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.183150] (-) TimerEvent: {}
+[8.286774] (-) TimerEvent: {}
+[8.365839] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.384232] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.384816] (ros_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.389729] (-) TimerEvent: {}
+[8.409605] (ros_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.493822] (-) TimerEvent: {}
+[8.593935] (ros_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.596409] (-) TimerEvent: {}
+[8.596546] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.716189] (-) TimerEvent: {}
+[8.817380] (-) TimerEvent: {}
+[8.877304] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.905902] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.918458] (ros_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.918640] (-) TimerEvent: {}
+[8.934909] (ros_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.997671] (ros_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.997869] (ros_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.022623] (-) TimerEvent: {}
+[9.126485] (-) TimerEvent: {}
+[9.241794] (-) TimerEvent: {}
+[9.254935] (ros_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.320475] (ros_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.329929] (ros_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.342011] (-) TimerEvent: {}
+[9.452086] (-) TimerEvent: {}
+[9.557895] (-) TimerEvent: {}
+[9.569369] (ros_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.628816] (ros_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.663687] (-) TimerEvent: {}
+[9.731312] (ros_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.764948] (-) TimerEvent: {}
+[9.793986] (ros_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.802351] (ros_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.802529] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.867357] (-) TimerEvent: {}
+[9.967949] (-) TimerEvent: {}
+[10.078590] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.078821] (-) TimerEvent: {}
+[10.085540] (ros_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.182164] (-) TimerEvent: {}
+[10.291052] (-) TimerEvent: {}
+[10.336936] (ros_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[10.337125] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[10.395121] (-) TimerEvent: {}
+[10.506625] (-) TimerEvent: {}
+[10.609637] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[10.609815] (-) TimerEvent: {}
+[10.613698] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[10.712189] (-) TimerEvent: {}
+[10.789674] (ros_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[10.793195] (ros_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.813021] (-) TimerEvent: {}
+[10.914488] (-) TimerEvent: {}
+[10.994852] (ros_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[11.015716] (-) TimerEvent: {}
+[11.066125] (ros_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[11.103857] (ros_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[11.116761] (-) TimerEvent: {}
+[11.189133] (ros_cpp) StdoutLine: {'line': b'-- Found msg_package: 0.0.0 (/home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake)\n'}
+[11.204878] (ros_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:30 (find_package):\n'}
+[11.205079] (ros_cpp) StderrLine: {'line': b'  By not providing "Findyaml-cpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[11.205139] (ros_cpp) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "yaml-cpp",\n'}
+[11.205192] (ros_cpp) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[11.205242] (ros_cpp) StderrLine: {'line': b'\n'}
+[11.205290] (ros_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "yaml-cpp" with any\n'}
+[11.205338] (ros_cpp) StderrLine: {'line': b'  of the following names:\n'}
+[11.205387] (ros_cpp) StderrLine: {'line': b'\n'}
+[11.205435] (ros_cpp) StderrLine: {'line': b'    yaml-cppConfig.cmake\n'}
+[11.205481] (ros_cpp) StderrLine: {'line': b'    yaml-cpp-config.cmake\n'}
+[11.205530] (ros_cpp) StderrLine: {'line': b'\n'}
+[11.205579] (ros_cpp) StderrLine: {'line': b'  Add the installation prefix of "yaml-cpp" to CMAKE_PREFIX_PATH or set\n'}
+[11.205643] (ros_cpp) StderrLine: {'line': b'  "yaml-cpp_DIR" to a directory containing one of the above files.  If\n'}
+[11.205730] (ros_cpp) StderrLine: {'line': b'  "yaml-cpp" provides a separate development package or SDK, be sure it has\n'}
+[11.210506] (ros_cpp) StderrLine: {'line': b'  been installed.\n'}
+[11.210594] (ros_cpp) StderrLine: {'line': b'\n'}
+[11.210726] (ros_cpp) StderrLine: {'line': b'\n'}
+[11.212641] (ros_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.212817] (ros_cpp) StdoutLine: {'line': b'See also "/home/sxxxd/Downloads/amr_example_small/build/ros_cpp/CMakeFiles/CMakeOutput.log".\n'}
+[11.212875] (ros_cpp) StdoutLine: {'line': b'See also "/home/sxxxd/Downloads/amr_example_small/build/ros_cpp/CMakeFiles/CMakeError.log".\n'}
+[11.218535] (-) TimerEvent: {}
+[11.230017] (ros_cpp) CommandEnded: {'returncode': 1}
+[11.321236] (ros_cpp) JobEnded: {'identifier': 'ros_cpp', 'rc': 1}
+[11.321966] (-) TimerEvent: {}
+[11.332882] (-) EventReactorShutdown: {}

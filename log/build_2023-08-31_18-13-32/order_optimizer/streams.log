@@ -1,0 +1,20 @@
+[0.148s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[0.363s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[0.552s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/order_optimizer
+[0.585s] -- Install configuration: ""
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/package_run_dependencies/order_optimizer
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/parent_prefix_path/order_optimizer
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.sh
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.dsv
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.sh
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.dsv
+[0.587s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.bash
+[0.588s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.sh
+[0.588s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.zsh
+[0.588s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.dsv
+[0.607s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.dsv
+[0.607s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/packages/order_optimizer
+[0.607s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig.cmake
+[0.607s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig-version.cmake
+[0.607s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.xml
+[0.771s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/order_optimizer

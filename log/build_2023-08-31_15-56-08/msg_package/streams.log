@@ -1,0 +1,172 @@
+[0.247s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
+[0.479s] [35m[1mScanning dependencies of target msg_package__cpp[0m
+[0.498s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.509s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.813s] [35m[1mScanning dependencies of target msg_package__rosidl_generator_c[0m
+[0.892s] [  6%] Built target msg_package__cpp
+[0.902s] [  9%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/msg/detail/order__functions.c.o[0m
+[0.919s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.937s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.945s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.106s] [ 22%] [32m[1mLinking C shared library libmsg_package__rosidl_generator_c.so[0m
+[1.302s] [ 22%] Built target msg_package__rosidl_generator_c
+[1.350s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.357s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.380s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_cpp[0m
+[1.396s] [ 32%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_package/msg/order__type_support.cpp.o[0m
+[1.398s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_cpp[0m
+[1.415s] [ 35%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_package/msg/detail/order__type_support.cpp.o[0m
+[1.457s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_cpp[0m
+[1.475s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_package/msg/detail/dds_fastrtps/order__type_support.cpp.o[0m
+[1.598s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_c[0m
+[1.609s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_c[0m
+[1.620s] [ 41%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_package/msg/order__type_support.cpp.o[0m
+[1.627s] [ 45%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_package/msg/detail/order__type_support.c.o[0m
+[1.653s] [ 48%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_c.so[0m
+[1.673s] [ 51%] [32m[1mLinking C shared library libmsg_package__rosidl_typesupport_introspection_c.so[0m
+[1.704s] [ 51%] Built target msg_package__rosidl_typesupport_c
+[1.711s] [ 51%] Built target msg_package__rosidl_typesupport_introspection_c
+[1.816s] [ 54%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_cpp.so[0m
+[1.910s] [ 58%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_introspection_cpp.so[0m
+[2.047s] [ 58%] Built target msg_package__rosidl_typesupport_cpp
+[2.214s] [ 58%] Built target msg_package__rosidl_typesupport_introspection_cpp
+[2.364s] [ 61%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.521s] [ 61%] Built target msg_package__rosidl_typesupport_fastrtps_cpp
+[2.538s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.810s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_c[0m
+[2.885s] [ 67%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_package/msg/detail/order__type_support_c.cpp.o[0m
+[3.306s] [ 70%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_c.so[0m
+[3.473s] [ 70%] Built target msg_package__rosidl_typesupport_fastrtps_c
+[3.498s] [35m[1mScanning dependencies of target msg_package[0m
+[3.518s] [ 70%] Built target msg_package
+[3.571s] [35m[1mScanning dependencies of target msg_package__py[0m
+[3.596s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.131s] [ 74%] Built target msg_package__py
+[4.168s] [35m[1mScanning dependencies of target msg_package__python[0m
+[4.198s] [ 77%] [32mBuilding C object CMakeFiles/msg_package__python.dir/rosidl_generator_py/msg_package/msg/_order_s.c.o[0m
+[4.370s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msg_package/libmsg_package__python.so[0m
+[4.567s] [ 80%] Built target msg_package__python
+[4.664s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.674s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_introspection_c__pyext[0m
+[4.693s] [35m[1mScanning dependencies of target msg_package__rosidl_typesupport_c__pyext[0m
+[4.776s] [ 83%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.776s] [ 87%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.823s] [ 90%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_c.c.o[0m
+[5.117s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.159s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.159s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.382s] [100%] Built target msg_package__rosidl_typesupport_c__pyext
+[5.434s] [100%] Built target msg_package__rosidl_typesupport_introspection_c__pyext
+[5.494s] [100%] Built target msg_package__rosidl_typesupport_fastrtps_c__pyext
+[5.638s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
+[6.038s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/msg_package
+[6.066s] -- Install configuration: ""
+[6.066s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/rosidl_interfaces/msg_package
+[6.066s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.066s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.066s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.066s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__struct.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__functions.c
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__functions.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/order.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_generator_c__visibility_control.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/library_path.sh
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/library_path.dsv
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_generator_c.so
+[6.067s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_generator_c.so" to ""
+[6.067s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.067s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.067s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_fastrtps_c.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.067s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so
+[6.090s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so" to ""
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/dds_fastrtps
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so
+[6.090s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.090s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.c
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_introspection_c.h
+[6.090s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so
+[6.091s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so" to ""
+[6.091s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so
+[6.091s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so" to ""
+[6.092s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.092s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.092s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.092s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.092s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__struct.hpp
+[6.092s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__builder.hpp
+[6.092s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__traits.hpp
+[6.092s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.hpp
+[6.101s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/order.hpp
+[6.101s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package
+[6.101s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg
+[6.102s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail
+[6.102s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__type_support.cpp
+[6.102s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/include/msg_package/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp
+[6.122s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so
+[6.127s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so" to ""
+[6.127s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so
+[6.127s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so" to ""
+[6.127s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/pythonpath.sh
+[6.127s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/pythonpath.dsv
+[6.128s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py
+[6.189s] Compiling '/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py'...
+[6.194s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg
+[6.194s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/__init__.py
+[6.194s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/_order.py
+[6.194s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg/_order_s.c
+[6.197s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.198s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.198s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.198s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.198s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.199s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.199s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__python.so
+[6.200s] -- Set runtime path of "/home/sxxxd/Downloads/amr_example_small/install/msg_package/lib/libmsg_package__python.so" to ""
+[6.200s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/msg/Order.idl
+[6.200s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/msg/Order.msg
+[6.200s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/package_run_dependencies/msg_package
+[6.201s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/parent_prefix_path/msg_package
+[6.201s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/ament_prefix_path.sh
+[6.202s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/ament_prefix_path.dsv
+[6.202s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/path.sh
+[6.202s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/environment/path.dsv
+[6.202s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.bash
+[6.203s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.sh
+[6.203s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.zsh
+[6.205s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/local_setup.dsv
+[6.205s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/package.dsv
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/ament_index/resource_index/packages/msg_package
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport.cmake
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport-noconfig.cmake
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport.cmake
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport.cmake
+[6.206s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport-noconfig.cmake
+[6.207s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cppExport.cmake
+[6.207s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport.cmake
+[6.208s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.209s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport.cmake
+[6.209s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport-noconfig.cmake
+[6.209s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake-extras.cmake
+[6.210s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.210s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_libraries-extras.cmake
+[6.211s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_targets-extras.cmake
+[6.211s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.211s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.212s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.213s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_packageConfig.cmake
+[6.213s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/cmake/msg_packageConfig-version.cmake
+[6.213s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/msg_package/share/msg_package/package.xml
+[6.222s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/msg_package

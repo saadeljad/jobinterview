@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.008901] (-) JobUnselected: {'identifier': 'msg_package'}
+[0.009064] (-) JobUnselected: {'identifier': 'order_optimizer'}
+[0.009090] (ros_cpp) JobQueued: {'identifier': 'ros_cpp', 'dependencies': OrderedDict([('msg_package', '/home/sxxxd/Downloads/amr_example_small/install/msg_package')])}
+[0.009194] (ros_cpp) JobStarted: {'identifier': 'ros_cpp'}
+[0.037908] (ros_cpp) JobEnded: {'identifier': 'ros_cpp', 'rc': 1}
+[0.052694] (-) EventReactorShutdown: {}

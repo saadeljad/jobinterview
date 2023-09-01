@@ -1,0 +1,19 @@
+[0.267s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[0.470s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.583s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.055s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.086s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.541s] -- Configuring incomplete, errors occurred!
+[1.541s] See also "/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/CMakeOutput.log".
+[1.541s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.542s]   rosidl_generate_interfaces() the passed file 'msg/Order.msg' doesn't exist
+[1.542s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.542s]   '/home/sxxxd/Downloads/amr_example_small/order_optimizer'
+[1.542s] Call Stack (most recent call first):
+[1.542s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.542s] 
+[1.542s] 
+[1.577s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.698s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8

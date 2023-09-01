@@ -1,0 +1,38 @@
+[0.170s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[0.261s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.607s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.911s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.962s] -- Configured cppcheck include dirs: 
+[0.962s] -- Configured cppcheck exclude dirs and/or files: 
+[0.981s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.981s] -- Configured cpplint exclude dirs and/or files: 
+[0.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.995s] -- Added test 'lint_cmake' to check CMake code style
+[0.996s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.032s] -- Added test 'uncrustify' to check C / C++ code style
+[1.032s] -- Configured uncrustify additional arguments: 
+[1.032s] -- Added test 'xmllint' to check XML markup files
+[1.032s] -- Configuring done
+[1.061s] -- Generating done
+[1.071s] -- Build files have been written to: /home/sxxxd/Downloads/amr_example_small/build/order_optimizer
+[1.282s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[1.917s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/order_optimizer
+[1.943s] -- Install configuration: ""
+[1.943s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/package_run_dependencies/order_optimizer
+[1.943s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/parent_prefix_path/order_optimizer
+[1.968s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.sh
+[1.968s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/ament_prefix_path.dsv
+[1.968s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.sh
+[1.968s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/environment/path.dsv
+[1.968s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.bash
+[1.968s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.sh
+[1.968s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.zsh
+[1.968s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/local_setup.dsv
+[1.968s] -- Installing: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.dsv
+[1.969s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/ament_index/resource_index/packages/order_optimizer
+[1.969s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig.cmake
+[1.969s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/cmake/order_optimizerConfig-version.cmake
+[1.969s] -- Up-to-date: /home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.xml
+[2.007s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sxxxd/Downloads/amr_example_small/build/order_optimizer

@@ -1,0 +1,17 @@
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/lib/ros_cpp/cpp_node
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ament_index/resource_index/package_run_dependencies/ros_cpp
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ament_index/resource_index/parent_prefix_path/ros_cpp
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.sh
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/environment/ament_prefix_path.dsv
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/environment/path.sh
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/environment/path.dsv
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/local_setup.bash
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/local_setup.sh
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/local_setup.zsh
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/local_setup.dsv
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/package.dsv
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ament_index/resource_index/packages/ros_cpp
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig.cmake
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/cmake/ros_cppConfig-version.cmake
+/home/sxxxd/Downloads/amr_example_small/install/ros_cpp/share/ros_cpp/package.xml

@@ -1,0 +1,180 @@
+[0.339s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.339s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f84af024df0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f84af024df0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f84aefae3a0>)
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.372s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sxxxd/Downloads/amr_example_small'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(configuration) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(msg_package) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'msg_package' with type 'ros.ament_cmake' and name 'msg_package'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(order_optimizer) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'order_optimizer' with type 'ros.ament_cmake' and name 'order_optimizer'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(orders) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(ros_cpp) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_cpp' with type 'ros.ament_cmake' and name 'ros_cpp'
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sxxxd/Downloads/amr_example_small/install
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'msg_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sxxxd/Downloads/amr_example_small/build/msg_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sxxxd/Downloads/amr_example_small/install/msg_package', 'merge_install': False, 'path': '/home/sxxxd/Downloads/amr_example_small/msg_package', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'order_optimizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'order_optimizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer', 'merge_install': False, 'path': '/home/sxxxd/Downloads/amr_example_small/order_optimizer', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'ros_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'ros_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sxxxd/Downloads/amr_example_small/build/ros_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sxxxd/Downloads/amr_example_small/install/ros_cpp', 'merge_install': False, 'path': '/home/sxxxd/Downloads/amr_example_small/ros_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.526s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sxxxd/Downloads/amr_example_small/msg_package' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sxxxd/Downloads/amr_example_small/msg_package'
+[0.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.569s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sxxxd/Downloads/amr_example_small/order_optimizer' with build type 'ament_cmake'
+[0.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sxxxd/Downloads/amr_example_small/order_optimizer'
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[2.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
+[2.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/order_optimizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/order_optimizer -- -j8 -l8
+[2.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(order_optimizer)
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer' for CMake module files
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer' for CMake config files
+[3.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('order_optimizer', 'cmake_prefix_path')
+[3.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.dsv'
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/hook/cmake_prefix_path.sh'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/bin'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/lib/pkgconfig/order_optimizer.pc'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/lib/python3.8/site-packages'
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/bin'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.sh'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.bash'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/order_optimizer/package.zsh'
+[3.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sxxxd/Downloads/amr_example_small/install/order_optimizer/share/colcon-core/packages/order_optimizer)
+[3.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.272s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.442s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sxxxd/Downloads/amr_example_small/install/local_setup.ps1'
+[3.446s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sxxxd/Downloads/amr_example_small/install/_local_setup_util_ps1.py'
+[3.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sxxxd/Downloads/amr_example_small/install/setup.ps1'
+[3.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sxxxd/Downloads/amr_example_small/install/local_setup.sh'
+[3.456s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sxxxd/Downloads/amr_example_small/install/_local_setup_util_sh.py'
+[3.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sxxxd/Downloads/amr_example_small/install/setup.sh'
+[3.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sxxxd/Downloads/amr_example_small/install/local_setup.bash'
+[3.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sxxxd/Downloads/amr_example_small/install/setup.bash'
+[3.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sxxxd/Downloads/amr_example_small/install/local_setup.zsh'
+[3.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sxxxd/Downloads/amr_example_small/install/setup.zsh'

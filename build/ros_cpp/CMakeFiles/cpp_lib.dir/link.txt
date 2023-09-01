@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcpp_lib.a  CMakeFiles/cpp_lib.dir/src/OrderOptimizerMain.cpp.o CMakeFiles/cpp_lib.dir/src/OrderOptimizerNode.cpp.o
+/usr/bin/ranlib libcpp_lib.a

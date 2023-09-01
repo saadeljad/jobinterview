@@ -1,0 +1,9 @@
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/install/strip.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/install/local.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/install.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/list_install_components.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/rebuild_cache.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/edit_cache.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/test.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/order_optimizer_uninstall.dir
+/home/sxxxd/Downloads/amr_example_small/build/order_optimizer/CMakeFiles/uninstall.dir

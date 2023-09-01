@@ -1,0 +1,16 @@
+[0.230s] Invoking command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
+[0.496s] [  3%] Built target msg_package__cpp
+[0.534s] [ 12%] Built target msg_package__rosidl_generator_c
+[0.633s] [ 22%] Built target msg_package__rosidl_typesupport_introspection_cpp
+[0.641s] [ 32%] Built target msg_package__rosidl_typesupport_fastrtps_cpp
+[0.645s] [ 41%] Built target msg_package__rosidl_typesupport_cpp
+[0.648s] [ 51%] Built target msg_package__rosidl_typesupport_c
+[0.662s] [ 61%] Built target msg_package__rosidl_typesupport_introspection_c
+[0.769s] [ 70%] Built target msg_package__rosidl_typesupport_fastrtps_c
+[0.847s] [ 70%] Built target msg_package
+[0.964s] [ 74%] Built target msg_package__py
+[1.052s] [ 80%] Built target msg_package__python
+[1.177s] [ 87%] Built target msg_package__rosidl_typesupport_c__pyext
+[1.177s] [ 93%] Built target msg_package__rosidl_typesupport_fastrtps_c__pyext
+[1.218s] [100%] Built target msg_package__rosidl_typesupport_introspection_c__pyext
+[1.386s] Invoked command in '/home/sxxxd/Downloads/amr_example_small/build/msg_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sxxxd/Downloads/amr_example_small/build/msg_package -- -j8 -l8
